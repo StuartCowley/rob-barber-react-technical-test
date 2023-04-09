@@ -4,7 +4,9 @@ import Search from "./Search";
 import SearchResults from "./SearchResults";
 
 function App() {
-  const [setSearchResults] = useState();
+  const [searchResults, setSearchResults] = useState([]);
+  // console.log(searchResults); returns the array in one big chunk of data 
+  // searchResults.map((e) => console.log(e)); maps over the array and returns every image as its own entity on a search
   return (
     <div className="app">
       <img
@@ -13,7 +15,7 @@ function App() {
         alt="nasaLogo"
       />
       <Search setSearchResults={setSearchResults} />
-      <SearchResults />
+      <SearchResults results={searchResults}/>
     </div>
   );
 }
