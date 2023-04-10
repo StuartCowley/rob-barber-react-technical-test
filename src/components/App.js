@@ -11,11 +11,11 @@ function App() {
     <div className="app">
       <img
         className="nasa-logo"
-        src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/1280px-NASA_Worm_logo.svg.png"
         alt="nasaLogo"
       />
       <Search setSearchResults={setSearchResults} />
-      <SearchResults results={searchResults}/>
+      <SearchResults results={searchResults} />
     </div>
   );
 }
