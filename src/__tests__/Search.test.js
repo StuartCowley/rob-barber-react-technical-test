@@ -7,5 +7,10 @@ describe("search", () => {
    it("renders correctly", () => {
       expect(asFragment()).toMatchSnapshot();
    });
+
+   it("renders search button correctly", () => {
+      const searchButton = screen.getByRole("button");
+      expect(searchButton).toBeInTheDocument();
+   })
    
    });

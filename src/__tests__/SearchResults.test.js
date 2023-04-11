@@ -8,4 +8,8 @@ describe("search results", () => {
         expect(asFragment()).toMatchSnapshot();
     });
 
+    it("should display images in component", () => {
+     expect(img).toHaveAttribute('spaceImage')
+    })
+
 });
