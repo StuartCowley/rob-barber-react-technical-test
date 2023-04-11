@@ -1,12 +1,17 @@
-# Getting Started with Create React App
+# React NASA API Technical Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This technical test required building a responsive web app using React, displaying information fetched from an API. 
 
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
+
+![App Desktop Screenshot](https://user-images.githubusercontent.com/47794235/231258868-0ad80d61-0588-4da0-aa2b-8aa8179a06d9.png)
+
+![App Mobile Screenshot](https://user-images.githubusercontent.com/47794235/231259122-169379a7-9b34-4b7c-85f7-546c872c8b76.png)
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
