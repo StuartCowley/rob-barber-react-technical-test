@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.902)
+}
+
+.nasa-logo {
+  margin: auto;
+  padding: 30px 0px;
+  width: 500px;
+  height: auto;
+}

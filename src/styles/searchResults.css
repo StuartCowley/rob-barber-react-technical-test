@@ -1,0 +1,42 @@
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.no-results {
+    text-align: center;
+    color: white;
+}
+
+
+.card-image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-image {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+
